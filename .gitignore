@@ -1,19 +1,22 @@
-jboss/server/all/deploy/project.ext
-jboss/server/default/deploy/project.ext
-jboss/server/minimal/deploy/project.ext
-jboss/server/all/log/*.log
-jboss/server/all/tmp/**/*
-jboss/server/all/data/**/*
-jboss/server/all/work/**/*
-jboss/server/default/log/*.log
-jboss/server/default/tmp/**/*
-jboss/server/default/data/**/*
-jboss/server/default/work/**/*
-jboss/server/minimal/log/*.log
-jboss/server/minimal/tmp/**/*
-jboss/server/minimal/data/**/*
-jboss/server/minimal/work/**/*
+.DS_Store
+node_modules
+/dist
 
-# deployed package files #
+# local env files
+.env.local
+.env.*.local
 
-*.DEPLOYED
+# Log files
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Editor directories and files
+.idea
+.vscode
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+/.env
